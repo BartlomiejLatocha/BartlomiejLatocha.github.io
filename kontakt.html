@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Radosław Kawa"/>
+    <title>Moja Herbata</title>
+    <link rel="icon" href="logo%20karty.png"/>
+    <link rel="stylesheet" href="kontakt_css.css"/>
+</head>
+
+<body>
+<div id="strona">
+    <header>
+        <div class="baner">
+            <img class="logo" src="logo%20strony.png" alt="logo strony"/>
+        </div>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="oherbacie.html">O herbacie</a></li>
+                <li><a href="rodzaje.html">Rodzaje herbaty</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="wpisy.html">Wpisy</a></li>
+                <li><a href="sklep.html">Sklep</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>  
+        </div>
+    </header>
+    
+    <h1>Masz jakieś pytanie?<br/> Skontaktuj się ze mną!</h1>
+    <section id="dane">
+        <h2>Moje dane</h2>
+        <table>
+            <tr>
+                <td><img class="koperta" src="koperta.jpg" alt="koperta"/></td>
+                <td><p>Adres email: moja.herbata@blog.pl</p></td>
+            </tr>    
+            <tr>
+                <td><img class="telefon" src="telefon.png" alt="telefon"/></td>
+                <td><p>Numer telefonu: 48+ 111 222 333</p></td>
+            </tr>
+        </table>
+    </section>
+    <section id="formularz">
+        <h2>Wyślij wiadomość</h2>
+        <form enctype="text/plain" action="mailto:moja.herbata@blog.pl" method="post"> 
+            <table>
+            <tr>
+                <td>Imię:</td> <td><input type="text" placeholder="Twoje imię" required="required" name="imie"></td>
+            </tr>
+            <tr>
+                <td>Nazwisko:</td> <td><input type="text" placeholder="Twoje Nazwisko" required="required" name="nazwisko"></td>
+            </tr>
+            <tr>
+                <td>Płeć:</td>
+                <td>Mężczyzna<input type="radio" name="plec" required>
+                Kobieta<input type="radio" name="plec" required></td>
+            </tr>
+            <tr>
+                <td>Wiek:</td> <td><input type="number" required name="wiek" min="1" max="99" placeholder="1"></td>
+            </tr>
+            <tr>
+                <td>Email:</td> <td><input type="email" placeholder="Twój email" required="required" name="email"></td>
+            </tr>
+            <tr>
+                <td>Numer telefonu:</td> <td><input type="tel" placeholder="Twój numer telefonu" name="telefon"></td>
+            </tr>
+            <tr>
+                <td>Czego dotyczy twoja wiadomość?</td>
+                <td>
+                    <select required name="sprawa">
+                        <option value="">Pytanie</option>
+                        <option value="">Opinia</option>
+                        <option value="">Sprawa biznesowa</option>
+                        <option value="">Inne</option>
+                    </select>
+                </td>
+            </tr>
+            </table>
+            <br/>
+                <textarea rows="15" cols="70" required name="wiadomosc" placeholder="Wpisz treść swojej wiadomości"></textarea>
+                <input type="submit" name="wyslij" value="Wyślij">
+        </form>
+    </section>
+    
+    <footer>
+        <p>Znajdź mnie również na: <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="facebook%20logo.png" alt="facebook"></a> <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="instagram%20logo.png" alt="instagram"></a></p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,374 @@
+html{
+    
+}
+
+body{
+    background-image: url(tlo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#strona{
+    height: 292%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    padding: 0px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.baner{
+    background-color: white;
+    width: 100%;
+    height: 8%;
+    position: relative;
+    top: -2%;
+    border-bottom: 5px solid black;
+}
+
+.logo{
+    height: 20%;
+    width: 30%;
+    margin-left:  35%;
+    margin-right: 35%;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p{
+    text-align: justify;
+    margin: 20px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#container p{
+    color: black;
+    width: 65%;
+}
+
+figure{
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+figure > img{
+    width: 300px;
+    height: 300px;
+}
+
+figcaption {
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+#herbataczarna{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid #52341C;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#herbataczarna > h2{
+    text-align: left;
+    font-family: sans-serif;
+    color: #52341C;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbataczarna > p{
+    float: left;
+}
+
+#herbataczarna > figure{
+    float: right;
+}
+
+#herbataczarna > figure > figcaption{
+    float: right;
+    color: #52341C;
+}
+
+#herbataczarna > figure > img{
+    float: right;
+}
+
+#herbatazielona{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid darkgreen;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+#herbatazielona > h2{
+    text-align: right;
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbatazielona > p{
+    float: right;
+}
+
+#herbatazielona > figure{
+    float: left;
+}
+
+#herbatazielona > figure > figcaption{
+    float: left;
+    color: darkgreen;
+}
+
+#herbatazielona > figure > img{
+    float: left;
+}
+
+#herbataniebieska{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid #317D6F;
+    padding: 10px;
+    border-radius: 50px;
+    color: #317D6F;
+}
+
+#herbataniebieska > h2{
+    text-align: left;
+    font-family: sans-serif;
+    color: #317D6F;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbataniebieska > p{
+    float: left;
+}
+
+#herbataniebieska > figure{
+    float: right;
+}
+
+#herbataniebieska > figure > figcaption{
+    float: right;
+    color: #317D6F;
+}
+
+#herbataniebieska > figure > img{
+    float: right;
+}
+
+#herbatabiala{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid #D4C979;
+    padding: 10px;
+    border-radius: 50px;
+    color: #D4C979;
+}
+
+#herbatabiala > h2{
+    text-align: right;
+    font-family: sans-serif;
+    color: #D4C979;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbatabiala > p{
+    float: right;
+}
+
+#herbatabiala > figure{
+    float: left;
+}
+
+#herbatabiala > figure > figcaption{
+    float: left;
+    color: #D4C979;
+}
+
+#herbatabiala > figure > img{
+    float: left;
+}
+
+#herbataczerwona{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid darkred;
+    padding: 10px;
+    border-radius: 50px;
+    color: darkred;
+}
+
+#herbataczerwona > h2{
+    text-align: left;
+    font-family: sans-serif;
+    color: darkred;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbataczerwona > p{
+    float: left;
+}
+
+#herbataczerwona > figure{
+    float: right;
+}
+
+#herbataczerwona > figure > figcaption{
+    float: right;
+    color: darkred;
+}
+
+#herbataczerwona > figure > img{
+    float: right;
+}
+
+#herbatazolta{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    border: 5px solid #DFEB00;
+    padding: 10px;
+    border-radius: 50px;
+    color: #DFEB00;
+}
+
+#herbatazolta > h2{
+    text-align: right;
+    font-family: sans-serif;
+    color: #DFEB00;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#herbatazolta > p{
+    float: right;
+}
+
+#herbatazolta > figure{
+    float: left;
+}
+
+#herbatazolta > figure > figcaption{
+    float: left;
+    color: #DFEB00;
+}
+
+#herbatazolta > figure > img{
+    float: left;
+}
+
+ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 100%;
+            position: relative;
+            top: -25px;
+            font-weight: 900;
+            font-family: sans-serif;
+        }
+        
+        ul > li {
+            float: left;
+            width: 14.28%;
+            position: relative;
+            left: 0px;
+        }
+        
+        ul > li > a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+            border: 1px solid black;
+            border-bottom: 5px solid black;
+            border-top: 5px solid black;
+            padding: 5px;
+        }
+        
+        ul > li:hover >a{
+            color: white;
+            background-color: dodgerblue;
+            border-style: inset;
+            padding: 7px 3px 3px 7px;
+        }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #FBE7CD;
+    border-top: 5px solid black;
+}
+
+footer > p{
+    color: darkorange;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    float: inherit;
+    position: relative;
+    bottom: 20px;
+    font-weight: 600;
+}
+
+.socialmedia{
+    float: inherit;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+}

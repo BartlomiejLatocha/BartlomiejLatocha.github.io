@@ -12,3 +12,4 @@ p{text-align:justify;margin:20px;font-family:sans-serif;color:#000;font-size:17p
 footer{position:absolute;bottom:0;width:100%;height:auto;background-color:#fbe7cd;border-top:5px solid #000}
 footer>p{color:#ff8c00;text-align:center;font-family:sans-serif;font-size:20px;float:inherit;position:relative;bottom:20px}
 .socialmedia{float:inherit;width:40px;height:40px;margin-left:5px;position:relative;top:10px}
+.tlo2{width: 100%;height: auto;position: relative;top: -25px;clear: both;margin-top: 20px;border-top: 5px solid black;}
